@@ -340,10 +340,13 @@ header ul li a {
     /* HOME */
     .homeSection {
         background-position-x: center;
+        display: flex;
+        align-items: start;
     }
 
     .homeContainer {
         padding: 0px 2px;
+        margin: 10px;
     }
 
     .homeContainer h4 {
