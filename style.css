@@ -376,9 +376,11 @@ header ul li a {
         height: auto;
         padding: 10px;
         display: block;
-        max-width: 100%;
-        width: 90%;
+        max-width: 100vw;
+        width: 100%;
         border-radius: 2px;
+        margin: 0;
+        max-width: 100vw;
     }
 
     .aboutBox-image h1 {
@@ -401,22 +403,13 @@ header ul li a {
 
     .aboutBox-teks p {
         font-size: 10px;
+        width: 100%;
+        max-width: 100%;
     }
 
-    /* ABOUT */
     .aboutSection {
         height: auto;
         padding: 20px 0px;
-    }
-
-    .aboutBox {
-        margin: 0;
-        max-width: 60vw;
-    }
-
-    .aboutBox-teks p {
-        width: 100%;
-        max-width: 100%;
     }
 
     /* MISSION */
@@ -482,6 +475,7 @@ header ul li a {
 
     .contactContainer {
         display: block;
+        padding: 20px;
     }
 
     .contactContainer-thankyou p {
